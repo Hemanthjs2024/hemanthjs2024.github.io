@@ -1,0 +1,26 @@
+body{
+    background-image: url(assests/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.name{
+    position: absolute;
+    top: 59%;
+    left: 1%;
+}
+
+.dresume{
+    position: absolute;
+    top: 10%;
+    left: 43%;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+
+.resume{
+    position: absolute;
+    top: 10%;
+    left:90%;
+}

@@ -1,0 +1,107 @@
+/* dummy.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    background:linear-gradient(30deg,blueviolet,white);
+}
+
+.navbar {
+    transition: background-color 0.5s ease;
+    background-color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.8);
+    transition: color 0.3s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.container-fluid img {
+    width: auto;
+    height: auto;
+    position: relative;
+    left: -10px;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.project {
+    text-align: center;
+}
+
+.card {
+    transition: transform 0.5s ease, box-shadow 0.5s ease
+}
+
+
+
+.navbar {
+    transition: background-color 0.5s ease;
+}
+
+.skill-bar {
+    position: relative;
+    background: #ddd;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+.skill-bar-fill {
+    display: block;
+    height: 100%;
+    background: #007bff;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    transition: width 2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    transition: transform 0.5s ease;
+}
+
+/* Skills section */
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill h4 {
+    margin-bottom: 10px;
+}
+
+.progress {
+    height: 30px;
+    border-radius: 15px;
+}
+
+.progress-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    transition: width 2s ease-in-out;
+}
+
+#project{
+    box-shadow: 0px 0px 10px black;
+    background-color: darkslategray;
+}
+
+
